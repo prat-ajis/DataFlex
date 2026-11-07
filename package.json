@@ -1,0 +1,27 @@
+{
+  "name": "dataflex",
+  "private": true,
+  "version": "1.0.0",
+  "description": "DataFlex - Local-first data converter & data cleaning application",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.70.0",
+    "papaparse": "^5.7.0",
+    "vue": "^3.5.45",
+    "vue-router": "^4.6.4",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "tailwindcss": "^4.3.5",
+    "vite": "^7.3.7",
+    "vitest": "^5.1.0"
+  }
+}
